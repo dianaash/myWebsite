@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding: 1rem; */
+  background: #ffe6e6;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffabe1;
+}
+
+.links {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.links a {
+  padding-right: 10px;
+}
+
+.links a:hover {
+  color: #ffec64;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #ff87af;
+}
+
+.card {
+  /* width: calc(100vw / 2.2); */
+  width: 80vmin;
+  height: 300px;
+  overflow: hidden;
+  margin-top: 25px;
+  background: linear-gradient(-40deg, #ff85e7, #fff0fc);
+  display: flex;
+  padding: 1rem;
+}
+
+.title {
+  padding-top: 100px;
+  color: #000;
+  text-align: center;
+}
+
+.img-container {
+  min-width: 35vmin;
+  min-height: 35vmin;
+  border: 1px solid #9c9c83;
+}
+
+.button {
+  width: 125px;
+  height: 15px;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  border-radius: 42px;
+  border: 1px solid #ffaa22;
+  cursor: pointer;
+  color: #333333;
+  font-size: 17px;
+  padding: 15px 47px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eef0ad;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+/* .button:active {
+  position: relative;
+  top: 1px;
+} */
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px #a8a8a8;
+}
+
+.content {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+/* background-image: url("/images/Diana.jpg");
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  object-fit: fit;
+  background-position: 80% 20%; */
+
+#introduction {
+  width: 30%;
+  text-align: center;
+}
+#introduction h1 {
+  color: #683264;
+}
+
+#introduction a {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.logo h4 {
+  background: linear-gradient(45deg, #fa1e0e 30%, #793eaa 65% 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.wide-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
