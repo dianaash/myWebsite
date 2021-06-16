@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   background: #ffabe1;
+  z-index: 100;
 }
 
 .links {
@@ -34,6 +35,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #793eaa;
 }
 
 .container {
@@ -125,11 +127,11 @@ h1 {
   background-position: 80% 20%; */
 
 #introduction {
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 #introduction h1 {
-  color: #683264;
+  color: #793eaa;
 }
 
 #introduction a {
@@ -155,4 +157,57 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+
+.profile-container {
+  position: absolute;
+  top: 80px;
+}
+
+.home-container img {
+  width: 60%;
+  object-fit: fill;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-text {
+  position: absolute;
+  visibility: hidden;
+  width: 100px;
+  background: #ffabe1;
+  color: #793eaa;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  z-index: 1;
+  top: 110%;
+  left: 75%;
+  margin-left: -60px;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ffabe1 transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.social-icon {
+  width: 50px !important;
+}
+
+.social-icon:hover {
+  filter: invert(100%);
+  /* filter: hue-rotate(90 deg); */
 }
