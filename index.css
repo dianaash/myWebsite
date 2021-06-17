@@ -29,7 +29,7 @@ body {
   padding-right: 10px;
 }
 
-.links a:hover {
+a:hover {
   color: #ffec64;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 .container {
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
