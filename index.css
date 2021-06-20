@@ -111,7 +111,7 @@ a {
 
 .content {
   margin-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -159,8 +159,15 @@ h1 {
   justify-content: space-evenly;
 }
 
+.wide-card h2 {
+  padding: 5% 5% 0 5%;
+  text-align: center;
+  line-height: 35px;
+}
+
 .profile-container {
   position: absolute;
+  padding: 5%;
   top: 80px;
 }
 
@@ -210,4 +217,8 @@ h1 {
 .social-icon:hover {
   filter: invert(100%);
   /* filter: hue-rotate(90 deg); */
+}
+
+.ProjectDate {
+  text-align: right;
 }
