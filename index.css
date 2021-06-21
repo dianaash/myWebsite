@@ -58,7 +58,7 @@ a {
 .card {
   /* width: calc(100vw / 2.2); */
   width: 80vmin;
-  height: 300px;
+  /* height: 300px; */
   overflow: hidden;
   margin-top: 25px;
   background: linear-gradient(-40deg, #ff85e7, #fff0fc);
