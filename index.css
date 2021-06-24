@@ -74,7 +74,7 @@ a {
 }
 
 .img-container {
-  min-width: 35vmin;
+  min-width: 25vmin;
   min-height: 35vmin;
   border: 1px solid #9c9c83;
 }
@@ -92,6 +92,7 @@ a {
   text-decoration: none;
   text-shadow: 0px 1px 0px #eef0ad;
 }
+
 .button:hover {
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 }
@@ -111,7 +112,7 @@ a {
 }
 
 .content {
-  margin-left: 2rem;
+  margin-left: 2vmin;
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -229,7 +230,7 @@ a {
   }
   #introduction {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 13%;
   }
   .links {
     font-size: 3vmin;
@@ -237,5 +238,13 @@ a {
   }
   .logo {
     font-size: 15px;
+  }
+  .content p {
+    font-size: 2vmin;
+  }
+  .button {
+    width: 100px;
+    height: 10px;
+    font-size: 13px;
   }
 }
