@@ -74,7 +74,7 @@ a {
 }
 
 .img-container {
-  min-width: 25vmin;
+  min-width: 35vmin;
   min-height: 35vmin;
   border: 1px solid #9c9c83;
 }
@@ -243,8 +243,20 @@ a {
     font-size: 2vmin;
   }
   .button {
-    width: 100px;
+    /* width: 90px; */
     height: 10px;
     font-size: 13px;
+    padding: 15px 18px;
+    text-align: center;
+  }
+  .img-container {
+    width: 25vmin;
+    min-height: 35vmin;
+    border: 1px solid #9c9c83;
+  }
+
+  .content h1 {
+    font-size: 5vmin;
+    margin-bottom: 10px;
   }
 }
