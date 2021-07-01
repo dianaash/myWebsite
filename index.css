@@ -279,5 +279,9 @@ a {
   .wide-card {
     display: block;
     text-align: center;
+    font-size: 1.5vmin;
+  }
+  .wide-card h2 {
+    line-height: 20px;
   }
 }
