@@ -290,4 +290,8 @@ a {
   #introduction {
     margin-top: 18%;
   }
+
+  .nav {
+    height: 40px;
+  }
 }
