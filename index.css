@@ -306,4 +306,8 @@ a {
   .nav {
     height: 40px;
   }
+
+  .wide-card h2 {
+    margin: 10px 0;
+  }
 }
