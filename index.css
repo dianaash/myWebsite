@@ -291,6 +291,18 @@ a {
     margin-top: 18%;
   }
 
+  .profile-container {
+    padding: 0 5%;
+  }
+
+  .wide-card div img {
+    width: 95%;
+  }
+
+  .wide-card {
+    padding-top: 0;
+  }
+
   .nav {
     height: 40px;
   }
