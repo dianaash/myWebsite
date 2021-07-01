@@ -285,3 +285,9 @@ a {
     line-height: 20px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  #introduction {
+    margin-top: 18%;
+  }
+}
