@@ -1,4 +1,4 @@
 # myWebsite
-This is my personal website. It's been written by Html and CSS. 
-I made it responsive by using @media and also flexbox.
-will be soon published as 'www.dianash.dev'
+This is my personal website. I made it using Html and CSS. 
+It is fully responsive for all kinds of devices by using Flex box and Media Query. 
+You can now access it with this address => 'www.dianash.dev'
