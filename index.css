@@ -55,6 +55,19 @@ a {
   justify-content: space-around;
   background: #ff87af;
 }
+.img-container {
+  width: 25vmin;
+  min-height: 35vmin;
+  border: 1px solid #9c9c83;
+}
+
+.tribute-container {
+  padding-top: 5vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 .card {
   /* width: calc(100vw / 2.2); */
@@ -71,6 +84,10 @@ a {
   padding-top: 100px;
   color: #000;
   text-align: center;
+}
+
+.tribute-title {
+  margin-top: 5px;
 }
 
 .img-container {
@@ -232,46 +249,23 @@ a {
   background-image: url("/images/flower-Line.png");
 }
 
-@media only screen and (max-width: 880px) {
-  #diana {
-    max-width: 100%;
-  }
-  #introduction {
-    width: 100%;
-    margin-top: 13%;
-  }
-  .links {
-    font-size: 3vmin;
-    padding-top: 15px;
-  }
-  .logo {
-    font-size: 15px;
-  }
-  .content p {
-    font-size: 2vmin;
-  }
-  .button {
-    /* width: 90px; */
-    height: 10px;
-    font-size: 13px;
-    padding: 15px 18px;
-    text-align: center;
-  }
-  .img-container {
-    width: 25vmin;
-    min-height: 35vmin;
-    border: 1px solid #9c9c83;
-  }
+.heart {
+  width: 40%;
+}
 
-  .content h1 {
-    font-size: 5vmin;
-    margin-bottom: 10px;
-  }
+.tribute-desc {
+  text-align: center;
+  padding: 8vmin 30vmin 0 30vmin;
 }
 
 @media only screen and (max-width: 1260px) {
   .wide-card {
     font-size: 1.3vmin;
+  }
+
+  .tribute-desc {
+    text-align: center;
+    padding: 8vmin 15vmin 0 15vmin;
   }
 }
 
@@ -283,6 +277,45 @@ a {
   }
   .wide-card h2 {
     line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #diana {
+    max-width: 100%;
+  }
+  #introduction {
+    width: 100%;
+    margin-top: 13%;
+  }
+
+  .heart {
+    width: 60%;
+  }
+  .links {
+    font-size: 3vmin;
+    padding-top: 15px;
+  }
+  .logo {
+    font-size: 15px;
+  }
+  .button {
+    /* width: 90px; */
+    height: 10px;
+    font-size: 13px;
+    padding: 15px 18px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 2vmin;
+  }
+
+  .content h1 {
+    font-size: 5vmin;
+    margin-bottom: 10px;
+  }
+  .tribute-desc {
+    padding: 10vmin 2vmin 0 2vmin;
   }
 }
 
