@@ -136,10 +136,10 @@ a {
 }
 
 /* background-image: url("/images/Diana.jpg");
-  background-repeat: no-repeat;
-  background-size: 50vw;
-  object-fit: fit;
-  background-position: 80% 20%; */
+background-repeat: no-repeat;
+background-size: 50vw;
+object-fit: fit;
+background-position: 80% 20%; */
 
 #introduction {
   width: 40%;
