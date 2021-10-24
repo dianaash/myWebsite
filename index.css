@@ -20,14 +20,20 @@ body {
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   font-size: 20px;
-  padding-top: 10px;
   padding-right: 15px;
 }
 
-.links a {
-  padding-right: 10px;
+/* .links a {
+  margin-left: 15px;
 }
+.links a:first-child {
+  margin-left: 0px;
+} */
 
 a:hover {
   color: #ffec64;
@@ -293,8 +299,8 @@ background-position: 80% 20%; */
     width: 60%;
   }
   .links {
+    gap: 12px;
     font-size: 3vmin;
-    padding-top: 15px;
   }
   .logo {
     font-size: 15px;
